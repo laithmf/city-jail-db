@@ -172,6 +172,7 @@ city-jail-db/
 │   ├── City-jail-assignment-2023.pdf
 │   └── City-jail-assignment-2023_FakhruldinL.docx
 ├── .gitignore
+└── GITHUB_SETUP.md
 └── README.md
 ```
 
