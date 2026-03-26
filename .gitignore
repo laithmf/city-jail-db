@@ -1,0 +1,18 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# MySQL dump files
+*.sql.gz
+*.dump
+
+# Credentials — never commit these
+.env
+*.env
+my.cnf
