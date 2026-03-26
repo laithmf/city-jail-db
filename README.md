@@ -20,14 +20,16 @@ The database was originally written for **Oracle SQL** and adapted to **MySQL** 
 
 ---
 
-## ER Diagram
+## ERD Diagram
 
-The file `schema/jail_project_erd.json` is an ERD built with the [ERD Editor](https://marketplace.visualstudio.com/items?itemName=dineug.vuerd-vscode) extension for VS Code.
+The file `schema/jail_project.erd.json` is an ERD built with the [ERD Editor](https://marketplace.visualstudio.com/items?itemName=dineug.vuerd-vscode) extension for VS Code.
 
 **To open it:**
 
 1. Install the **ERD Editor** extension in VS Code (`dineug.vuerd-vscode`)
-2. Open `schema/jail_project_erd.json` — it will render automatically as an interactive diagram
+2. Open `schema/jail_project.erd.json` — it will render automatically as an interactive diagram
+
+![ERD Preview](schema/jail_project_erd.png)
 
 > **Note:** GitHub does not render `.json` ERD files natively. The file opens correctly in VS Code with the ERD Editor extension. If you want a viewable version on GitHub itself, see the [docs folder](docs/) which contains the original assignment PDFs with the schema description.
 
@@ -159,7 +161,7 @@ All queries are in `queries/assignment_queries.sql`. Each one uses a subquery as
 city-jail-db/
 ├── schema/
 │   └── jail_project_erd.json          # ERD file — open with ERD Editor in VS Code
-|   └── jail_project_image.png         # ERD file - Image preview
+|   └── jail_project_erd.png         # ERD file - Image preview
 ├── sql/
 │   ├── 01_schema.sql                  # CREATE TABLE statements + constraints
 │   └── 02_seed_data.sql               # INSERT statements (all sample data)
